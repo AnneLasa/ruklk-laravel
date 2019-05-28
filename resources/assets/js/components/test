@@ -1,0 +1,26 @@
+<template>
+    <div class="profilechat-app">
+        <Conversation :contact='selectedContact' :messages = 'messages'></Conversation>
+        <contactlist :contacts ='contacts'></contactlist>
+    </div>
+</template>
+
+<script>
+    export default{
+        data(){
+            return{
+                selectedContact:null,
+                messages: [],
+                contacts :[]
+            }
+        },
+        mounted(){
+            axios.get()
+        }
+    }
+  
+</script>
+
+<style scoped>
+
+</style>

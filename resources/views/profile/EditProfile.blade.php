@@ -4,9 +4,9 @@
 <section class="text-center">
 
         <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-center my-5">Edit Your Details</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-5 ">Edit Your Details</h2>
         <!-- Section description -->
-        <p class="grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+        <p class="grey-text text-center w-responsive mx-5 px-5 mb-5">Update your details. Update your essential informations like mobile numebr, company address which helps buyers to contact with you.</p>
         @include('inc.errormessage')
         {!! Form::open(['action' => ['UserController@update', $user->id], 'method'=>'POST']) !!}
             <div class="form-group row">

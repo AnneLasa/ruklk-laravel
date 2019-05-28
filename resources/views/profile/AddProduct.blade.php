@@ -6,7 +6,7 @@
         <!-- Section heading -->
         <h2 class="h1-responsive font-weight-bold text-center my-5">Add Products</h2>
         <!-- Section description -->
-        <p class="grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+        <p class="grey-text text-center w-responsive mx-auto mb-5">Add your new plants, seeds. You can rent your lands for planting and get benifits. You can earn benifits by doing something valuable to you and the country</p>
         @include('inc.errormessage')
 
         {!! Form::open(['action' => ['ProductController@store'], 'method'=>'POST','enctype'=>'multipart/form-data']) !!}
@@ -23,7 +23,7 @@
 
         <div class="form-group row">
                 {{Form::label('category',"Product Category",['class'=>'col-md-4 col-form-label text-md-right'])}}
-                {{Form::select('category', ['tree' => 'Tree','seed' => 'Seeds'],['class'=>'col-md-4 col-form-label text-md form-control'])}}
+                {{Form::select('category', ['land'=>'Land','tree' => 'Tree','seed' => 'Seeds'],['class'=>'col-md-4 col-form-label text-md form-control'])}}
                  @if ($errors->has('productName'))
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $errors->first('productName') }}</strong>
@@ -49,6 +49,8 @@
                         <strong>{{ $errors->first('productPrice') }}</strong>
                     </span>
                 @endif
+                
+                
             </div>
 
             <div class="form-group row">
@@ -60,6 +62,17 @@
                         </span>
                     @endif
                 </div>
+
+                <div class="form-group row">
+                    {{Form::label('locationlink',"Location Link",['class'=>'col-md-4 col-form-label text-md-right'])}}
+                    {{Form::text('locationlink','',['class'=>'col-md-4 col-form-label text-md form-control'])}}
+                    @if ($errors->has('locationlink'))
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $errors->first('locationlink') }}</strong>
+                        </span>
+                    @endif
+                </div>
+            
             
                 <div class="form-group row">
                         {{Form::label('productImage',"Product image",['class'=>'col-md-4 col-form-label text-md-right'])}}

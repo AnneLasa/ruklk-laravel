@@ -70,4 +70,28 @@ h5 {
   @media (max-width: 1199.98px) {
     .sidebar-fixed {
       display: none; } }
+
+.favrow{
+  background-color: lightgreen;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+.favrow-title{
+  font-size: 20px;
+  margin-left: 5px;
+  color: darkslategray
+}
+
+.favrow-description{
+  font-size: 15px;
+  margin-left: 5px;
+  color: darkslategray
+}
+.favcansel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
   
+}

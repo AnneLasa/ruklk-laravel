@@ -66,3 +66,45 @@ h5 {
 @media (max-width: 1199.98px) {
   .sidebar-fixed {
     display: none; } }
+
+    .form-elegant .font-small {
+      font-size: 0.8rem; }
+      
+      .form-elegant .z-depth-1a {
+      -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+      box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+      
+      .form-elegant .z-depth-1-half,
+      .form-elegant .btn:hover {
+      -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+      box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+      .input-group.md-form.form-sm.form-1 input{
+        border: 1px solid #bdbdbd;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        background-color: white;
+    }
+
+
+    .active-white-3 input[type=text] {
+      border: 1px solid white;
+      box-shadow: 0 0 0 1px white;
+  }
+
+  .row{
+    width: 100%;
+  }
+
+  .intro{
+    background-attachment: fixed;
+    
+  }
+
+  #map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+
+  

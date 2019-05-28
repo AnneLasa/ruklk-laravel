@@ -21,3 +21,17 @@ $factory->define(App\User::class, function (Faker $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Message::class, function (Faker $faker) {
+
+    do{
+        $from = rand(1,5);
+        $to = rand(1,5);
+    }while($from === $to);
+
+    return [
+        'from' => $from,
+        'to' => $to,
+        'text' => $faker->sentence
+    ];
+});

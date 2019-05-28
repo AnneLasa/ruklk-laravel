@@ -13,7 +13,7 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('seller', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->string('firstname');
             $table->string('secondname');
@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->string('mobileno');
             $table->rememberToken();
             $table->timestamps();
+            $table->boolean('verified')->default(false);
         });
     }
 

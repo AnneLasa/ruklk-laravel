@@ -1,9 +1,9 @@
-<footer class="page-footer dark green text-center txt-md-left pt-4 mt-4">
+<footer class="page-footer dark green text-center txt-md-left pt-4 my-0">
   <div class="container-fluid text-center txt-md-left">
     <div class="row">
       <div class="col-md-6">
         <h5 class="title"> Ruk.lk </h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque itaque repudiandae, dolorum corrupti, enim facilis repellat labore cupiditate suscipit tempore consectetur ratione. Animi dolorem enim delectus commodi quidem, nostrum deleniti.</p>
+        <p>Ruk.lk is a web-based application which involve for increase the seeds and plants in Sri Lanka as well as get commercial benefits to users. Ruk.lk is a web-based platform to meet sellers who sell the trees and buyers who like to buy trees. In the other side it’s a platform for volunteers to meet organizations which plants trees in island wide and give support to the organization.</p>
       </div> 
       <hr class="hidden-md-up">
       <div class="col-md-6">

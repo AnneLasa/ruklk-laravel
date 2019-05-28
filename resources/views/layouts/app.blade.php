@@ -20,15 +20,15 @@
   <link href="{{asset('mdb/css/mdb.min.css')}}" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="{{asset('mdb/css/style.css')}}" rel="stylesheet">
+
+  
 </head>
 <body>
     
     @yield('navbar')
    
     <div id="app">
-       
-
-        <main class="py-4">
+        <main class="py-0 my-0">
             @yield('content')
         </main>
         
@@ -36,12 +36,12 @@
 
      <!-- Scripts -->
      <script src="{{ asset('js/app.js') }}" defer></script>
+     <script src="{{ asset('js/custom.js') }}" defer></script>
      
     
      <!-- JQuery -->
 
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
@@ -49,6 +49,6 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.10/js/mdb.min.js"></script>
      
-    
+<script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="  crossorigin="anonymous"></script>
 </body>
 </html>

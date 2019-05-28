@@ -1,0 +1,37 @@
+.btn-h1-spacing {
+    margin-top: 18px;
+}
+
+.form-spacing-top {
+    margin-top: 30px;
+}
+
+.jumbotron {
+  background-image: url("../wikiimages/flower.jpg");
+  background-size: cover;
+  min-height: 450px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-img-top{
+  background-image: url("../wikiimages/m.jpg");
+  min-height: 200px;
+}
+
+.postborder{
+  border-radius: 5px;
+}
+
+.topic{
+     font-size: 50px;
+     color: black;
+     
+}
+
